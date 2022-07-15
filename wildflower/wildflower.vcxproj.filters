@@ -1,0 +1,186 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="dependencies">
+      <UniqueIdentifier>{cae4fa80-6b63-4a3b-92ca-ba8529b6d0ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="dependencies\imgui">
+      <UniqueIdentifier>{0f4f1f83-97d9-472e-b695-7e2918eb2a0b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="dependencies\minhook">
+      <UniqueIdentifier>{b660e6da-e6d3-432a-8fb0-4b2c795c1cf6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="dependencies\minhook\hde">
+      <UniqueIdentifier>{0ff693d4-3271-425e-9b22-de043af6c667}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="dependencies\imgui\cpp">
+      <UniqueIdentifier>{061e7327-ee78-4c9d-b949-4ff495e773e2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="dependencies\imgui\dx9">
+      <UniqueIdentifier>{82c76a85-4ead-4e3a-bddc-4691e0a069c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="dependencies\imgui\win32">
+      <UniqueIdentifier>{e67bff43-6da0-4424-b534-2bf2c126a54d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source">
+      <UniqueIdentifier>{ca0a23fa-b066-443e-9a6f-bcb31da4156d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="header">
+      <UniqueIdentifier>{8ae74642-8298-4cc3-a814-ec03f7db7112}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="header\utilities">
+      <UniqueIdentifier>{89e79eeb-5061-4309-9f91-933c5a8b0aa2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\utilities">
+      <UniqueIdentifier>{261e7475-6fbf-4446-96b2-bacd4fb658ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="header\vitals">
+      <UniqueIdentifier>{a66ee277-f942-4875-a1fb-7ad6430c979b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\vitals">
+      <UniqueIdentifier>{f0b03150-029f-48c1-ba8e-f8ef94303123}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\dependencies\minhook\buffer.c">
+      <Filter>dependencies\minhook</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dependencies\minhook\hook.c">
+      <Filter>dependencies\minhook</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dependencies\minhook\trampoline.c">
+      <Filter>dependencies\minhook</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dependencies\minhook\hde\hde32.c">
+      <Filter>dependencies\minhook\hde</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dependencies\minhook\hde\hde64.c">
+      <Filter>dependencies\minhook\hde</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dependencies\imgui\imgui.cpp">
+      <Filter>dependencies\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dependencies\imgui\imgui_draw.cpp">
+      <Filter>dependencies\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dependencies\imgui\imgui_widgets.cpp">
+      <Filter>dependencies\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dependencies\imgui\win32\imgui_impl_win32.cpp">
+      <Filter>dependencies\imgui\win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dependencies\imgui\dx9\imgui_impl_dx9.cpp">
+      <Filter>dependencies\imgui\dx9</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dependencies\imgui\cpp\imgui_stdlib.cpp">
+      <Filter>dependencies\imgui\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="utilities\debug.cpp">
+      <Filter>source\utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="vitals\hooks.cpp">
+      <Filter>source\vitals</Filter>
+    </ClCompile>
+    <ClCompile Include="utilities\memory.cpp">
+      <Filter>source\utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="vitals\interfaces.cpp">
+      <Filter>source\vitals</Filter>
+    </ClCompile>
+    <ClCompile Include="vitals\menu.cpp">
+      <Filter>source\vitals</Filter>
+    </ClCompile>
+    <ClCompile Include="utilities\hookmanager.cpp">
+      <Filter>source\utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="utilities\style.cpp">
+      <Filter>source\utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="utilities\utilities.cpp">
+      <Filter>source\utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\dependencies\minhook\buffer.h">
+      <Filter>dependencies\minhook</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dependencies\minhook\minhook.h">
+      <Filter>dependencies\minhook</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dependencies\minhook\trampoline.h">
+      <Filter>dependencies\minhook</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dependencies\minhook\hde\hde32.h">
+      <Filter>dependencies\minhook\hde</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dependencies\minhook\hde\hde64.h">
+      <Filter>dependencies\minhook\hde</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dependencies\minhook\hde\pstdint.h">
+      <Filter>dependencies\minhook\hde</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dependencies\minhook\hde\table32.h">
+      <Filter>dependencies\minhook\hde</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dependencies\minhook\hde\table64.h">
+      <Filter>dependencies\minhook\hde</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dependencies\imgui\imconfig.h">
+      <Filter>dependencies\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dependencies\imgui\imgui.h">
+      <Filter>dependencies\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dependencies\imgui\imgui_internal.h">
+      <Filter>dependencies\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dependencies\imgui\imstb_rectpack.h">
+      <Filter>dependencies\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dependencies\imgui\imstb_textedit.h">
+      <Filter>dependencies\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dependencies\imgui\imstb_truetype.h">
+      <Filter>dependencies\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dependencies\imgui\win32\imgui_impl_win32.h">
+      <Filter>dependencies\imgui\win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dependencies\imgui\dx9\imgui_impl_dx9.h">
+      <Filter>dependencies\imgui\dx9</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dependencies\imgui\cpp\imgui_stdlib.h">
+      <Filter>dependencies\imgui\cpp</Filter>
+    </ClInclude>
+    <ClInclude Include="utilities\debug.h">
+      <Filter>header\utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="vitals\includes.h">
+      <Filter>header\vitals</Filter>
+    </ClInclude>
+    <ClInclude Include="vitals\hooks.h">
+      <Filter>header\vitals</Filter>
+    </ClInclude>
+    <ClInclude Include="utilities\memory.h">
+      <Filter>header\utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="vitals\interfaces.h">
+      <Filter>header\vitals</Filter>
+    </ClInclude>
+    <ClInclude Include="vitals\menu.h">
+      <Filter>header\vitals</Filter>
+    </ClInclude>
+    <ClInclude Include="utilities\hookmanager.h">
+      <Filter>header\utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="utilities\style.h">
+      <Filter>header\utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="utilities\utilities.h">
+      <Filter>header\utilities</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
